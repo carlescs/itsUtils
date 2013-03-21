@@ -4,3 +4,4 @@ packages/
 obj/
 bin/
 itsUtils/itsUtils.csproj.user
+itsUtils.nuget/Bin/
