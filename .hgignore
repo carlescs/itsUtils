@@ -3,3 +3,4 @@ syntax: glob
 packages/
 obj/
 bin/
+itsUtils/itsUtils.csproj.user
