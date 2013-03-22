@@ -7,3 +7,4 @@ itsUtils/itsUtils.csproj.user
 itsUtils.nuget/Bin/
 *.nupkg
 NuGet.exe
+nuget.exe
