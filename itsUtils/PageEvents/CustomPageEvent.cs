@@ -18,7 +18,6 @@ namespace itsUtils.PageEvents
         private readonly int _watermarkTextRenderMode;
         private readonly float _angleWatermark;
         private readonly float _watermarkFontSize;
-        private readonly Rectangle _pageSize;
         private readonly Rectangle _margins;
         private static readonly Font FontHf = FontFactory.GetFont(FontFactory.HELVETICA_OBLIQUE, 9);
 
@@ -46,8 +45,8 @@ namespace itsUtils.PageEvents
             _angleWatermark = angleWatermark;
             _footerAlign = footerAlign;
             _headerAlign = headerAlign;
-            _pageSize = pageSize ?? PageSize.A4;
-            _margins = new Rectangle(10, 10, _pageSize.Width - 20, _pageSize.Height - 20);
+            Rectangle pageSize1 = pageSize ?? PageSize.A4;
+            _margins = new Rectangle(10, 10, pageSize1.Width - 20, pageSize1.Height - 20);
             _watermark = watermark;
             _pageNumbers = pageNumbers;
             _footerMessage = footerMessage;
