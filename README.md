@@ -7,7 +7,7 @@ Usage
 -----
 
     PdfWriter.PageEvent=new CustomPageEvent(pageNumbers:true, headerMessage:"Testing");
-    
+
 In the constructor for CustomPageEvent you can specify the options (shown are the default values):
 
     string headerMessage = null,
@@ -22,4 +22,4 @@ In the constructor for CustomPageEvent you can specify the options (shown are th
     Rectangle pageSize = null,
     int headerAlign = Element.ALIGN_LEFT,
     int footerAlign = Element.ALIGN_LEFT
-    
+
