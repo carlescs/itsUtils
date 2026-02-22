@@ -1,6 +1,8 @@
 itsUtils
 ========
 
+> ⚠️ **This project is obsolete and no longer maintained. The repository has been archived.**
+
 Utility library for iTextSharp. It only has a PageEvent to add header, footer, page numbers and watermark to the pages.
 
 Usage
